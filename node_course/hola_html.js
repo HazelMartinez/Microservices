@@ -1,3 +1,6 @@
+/*
+
+
 var http = require("http"),
 	fs =require("fs");
 
@@ -6,9 +9,14 @@ var http = require("http"),
 
 http.createServer(function(req,res){
 	fs.readFile("./index.html",function(err,html){
-		res.write(html);
+		res.writeHead(200,{"Content-Type": "text/html"})
+		res.write(JSON.stringify({nombre:"Hazel", username: "HazelMartinez"}));
 		res.end();
 	});
 
 
 }).listen(8000);
+
+
+*/
+

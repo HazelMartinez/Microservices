@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<users>
+   <element>
+      <password>hazel123</password>
+      <rol>0</rol>
+      <user>hazel</user>
+   </element>
+   <element>
+      <password>duque123</password>
+      <rol>2</rol>
+      <user>duque</user>
+   </element>
+    <element>
+      <password>lejo</password>
+      <rol>0</rol>
+      <user>json</user>
+   </element>
+</users>
